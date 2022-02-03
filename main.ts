@@ -232,6 +232,27 @@ game.onUpdateInterval(5000, function () {
 game.onUpdateInterval(5000, function () {
     rabbit.startEffect(effects.halo)
 })
+game.onUpdateInterval(2001, function () {
+    player.startEffect(effects.halo)
+})
+game.onUpdateInterval(2003, function () {
+    player.startEffect(effects.halo)
+})
 game.onUpdateInterval(2000, function () {
+    player.startEffect(effects.halo)
+})
+game.onUpdateInterval(2000, function () {
+    player.startEffect(effects.ashes, 2000)
+})
+game.onUpdateInterval(2000, function () {
+    player.startEffect(effects.fire, 2000)
+})
+game.onUpdateInterval(2000, function () {
+    player.startEffect(effects.fire, 2000)
+})
+game.onUpdateInterval(2000, function () {
+    player.startEffect(effects.fire, 2000)
+})
+game.onUpdateInterval(2004, function () {
     player.startEffect(effects.halo)
 })
